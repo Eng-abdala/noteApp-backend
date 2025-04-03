@@ -41,7 +41,7 @@ app.delete('/delete/:id',async(req,res)=>{
 
 
 
-mongoose.connect('mongodb://localhost:27017/note').then(()=>{
+mongoose.connect('mongodb+srv://ciilanesalaad482561:MJr8NAMwYy8MUG7X@noteapp.eucdxn9.mongodb.net/?retryWrites=true&w=majority&appName=noteApp/note').then(()=>{
     console.log("Database is succseesfully connected")
 })
 
